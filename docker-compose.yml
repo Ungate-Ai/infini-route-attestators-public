@@ -1,7 +1,7 @@
 version: '3.7'
 x-othentic-cli: &othentic-cli
   env_file:
-    - path: ./.env
+    - path: .env
       required: true
   build:
     context: .
