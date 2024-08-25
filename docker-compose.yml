@@ -11,6 +11,8 @@ x-othentic-cli: &othentic-cli
 services:
   attester:
     <<: *othentic-cli
+    env_file: 
+      - .env
     command: [
       "node",
       "attester",
