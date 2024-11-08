@@ -10,7 +10,8 @@ To set up the environment, create a `.env` file with the usual Ungate
 configurations (see the `.env.example`), then run:
 
 ```console
-docker-compose up
+docker compose build --no-cache
+docker compose up
 ```
 
 ## 🏗️ Architecture
