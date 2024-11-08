@@ -1,5 +1,8 @@
 # Ungate AVS Operator Project 
 
+## Setting up as an Operator with the AVS
+Guidelines to set yourself up as an operator and start the service are here - https://app.gitbook.com/o/QUd7WkJefspCgRSTpxAN/s/SvxyExj0oUqpPY4D4VQC/operators/mainnet
+
 ## ▶️ Run an Attestor Node
 We provide a  docker-compose configuration which sets up the Attestor Node
 
